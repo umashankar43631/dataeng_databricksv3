@@ -17,7 +17,7 @@ import os
 BASE_DIR = Path(__file__).resolve().parent.parent
 BASE_DIR1 = Path(__file__).resolve().parent
 
-TEMPLATES_DIR = os.path.join(BASE_DIR1, 'templates/')
+TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
 
 
 # Quick-start development settings - unsuitable for production

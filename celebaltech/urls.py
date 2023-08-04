@@ -19,6 +19,6 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('mngdeltalake/', include("managedeltalake.urls"), name='managedeltalake'),
+    path('managedeltalake/', include("managedeltalake.urls"), name='managedeltalake'),
     path('transformdspark/', include("transformdspark.urls"), name="transform_data_with_spark"),
 ]
